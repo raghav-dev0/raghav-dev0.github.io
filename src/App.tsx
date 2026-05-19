@@ -48,14 +48,6 @@ export default function App() {
           ))}
         </ul>
         <div className={styles.sideFooter}>
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noreferrer"
-            className={styles.resumeBtn}
-          >
-            ↓ resume.pdf
-          </a>
           <span className={styles.cursor}>█</span>
         </div>
       </nav>

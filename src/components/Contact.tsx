@@ -28,6 +28,15 @@ export default function Contact() {
         </a>
       </div>
 
+      <div className={styles.cta}>
+        <p className={styles.ctaText}>
+          Like my work and want to work together?
+        </p>
+        <a href={`mailto:${contact.email}`} className={styles.ctaBtn}>
+          Reach out →
+        </a>
+      </div>
+
       <p className={styles.footer}>
         <span className={styles.user}>raghav@github</span>
         <span className={styles.sep}>:</span>
