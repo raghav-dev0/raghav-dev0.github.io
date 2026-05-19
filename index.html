@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>scumpah | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="terminal-window">
+    <div class="terminal-bar">
+      <span class="dot red"></span>
+      <span class="dot yellow"></span>
+      <span class="dot green"></span>
+      <span class="terminal-title">scumpah@github:~</span>
+    </div>
+
+    <main class="terminal-body">
+
+      <!-- HERO -->
+      <section id="hero">
+        <p class="prompt"><span class="user">scumpah@github</span>:<span class="path">~</span>$ whoami</p>
+        <div class="output">
+          <h1><!-- YOUR NAME --></h1>
+          <p class="tagline"><!-- e.g. Software Engineer · Problem Solver · Builder --></p>
+        </div>
+
+        <p class="prompt mt"><span class="user">scumpah@github</span>:<span class="path">~</span>$ cat about.txt</p>
+        <div class="output">
+          <p class="about">
+            <!-- 2–3 sentence bio. Who you are, what you care about, what drives you. -->
+          </p>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <p class="prompt mt"><span class="user">scumpah@github</span>:<span class="path">~</span>$ ls skills/</p>
+        <div class="output skill-grid">
+          <!-- each .skill-group becomes a column -->
+          <div class="skill-group">
+            <span class="skill-label">languages</span>
+            <ul>
+              <!-- <li>Python</li> -->
+            </ul>
+          </div>
+          <div class="skill-group">
+            <span class="skill-label">frameworks</span>
+            <ul>
+              <!-- <li>React</li> -->
+            </ul>
+          </div>
+          <div class="skill-group">
+            <span class="skill-label">tools</span>
+            <ul>
+              <!-- <li>Git</li> -->
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <p class="prompt mt"><span class="user">scumpah@github</span>:<span class="path">~</span>$ cat projects.json</p>
+        <div class="output">
+          <div class="json-block">
+            <span class="json-bracket">[</span>
+
+            <!-- PROJECT CARD — duplicate this block for each project -->
+            <div class="json-item">
+              <span class="json-bracket">{</span>
+              <div class="json-fields">
+                <p><span class="json-key">"name"</span>: <span class="json-str">"<!-- Project Name -->"</span>,</p>
+                <p><span class="json-key">"stack"</span>: <span class="json-str">"<!-- Tech used -->"</span>,</p>
+                <p><span class="json-key">"desc"</span>: <span class="json-str">"<!-- One-line description -->"</span>,</p>
+                <p><span class="json-key">"link"</span>: <span class="json-str">"<!-- GitHub URL -->"</span></p>
+              </div>
+              <span class="json-bracket">}</span>
+            </div>
+
+            <span class="json-bracket">]</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience">
+        <p class="prompt mt"><span class="user">scumpah@github</span>:<span class="path">~</span>$ git log --oneline career</p>
+        <div class="output timeline">
+          <!-- ENTRY — duplicate for each role -->
+          <div class="commit">
+            <span class="hash"><!-- e.g. a1b2c3d --></span>
+            <span class="commit-msg">
+              <strong><!-- Job Title @ Company --></strong>
+              <span class="date"><!-- Month Year – Month Year --></span>
+            </span>
+          </div>
+          <div class="commit-detail">
+            <ul>
+              <!-- <li>Key achievement or responsibility</li> -->
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education">
+        <p class="prompt mt"><span class="user">scumpah@github</span>:<span class="path">~</span>$ cat education.txt</p>
+        <div class="output">
+          <!-- Degree, Institution, Year -->
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <p class="prompt mt"><span class="user">scumpah@github</span>:<span class="path">~</span>$ open --links</p>
+        <div class="output links">
+          <a href="https://github.com/scumpah" target="_blank">github.com/scumpah</a>
+          <a href="mailto:raghavendrasai1742@gmail.com">raghavendrasai1742@gmail.com</a>
+          <!-- <a href="https://linkedin.com/in/YOUR_HANDLE" target="_blank">linkedin</a> -->
+          <!-- <a href="resume.pdf" target="_blank">resume.pdf</a> -->
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <p class="prompt mt footer"><span class="user">scumpah@github</span>:<span class="path">~</span>$ <span class="cursor">█</span></p>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
