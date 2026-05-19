@@ -16,7 +16,7 @@ export default function Contact() {
       <div className={styles.links}>
         <a href={contact.github} target="_blank" rel="noreferrer" className={styles.link}>
           <span className={styles.icon}>⬡</span>
-          <span>github.com/raghav</span>
+          <span>github.com/raghav-dev0</span>
         </a>
         <a href={`mailto:${contact.email}`} className={styles.link}>
           <span className={styles.icon}>@</span>

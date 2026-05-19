@@ -1,8 +1,8 @@
 # my-portfolio
 
-Personal portfolio site for [Raghavendra Sai](https://github.com/raghav) — terminal-themed, built with React + Vite + TypeScript.
+Personal portfolio site for [Raghavendra Sai](https://github.com/raghav-dev0) — terminal-themed, built with React + Vite + TypeScript.
 
-**Live:** https://raghav.github.io
+**Live:** https://raghav-dev0.github.io
 
 ## Stack
 

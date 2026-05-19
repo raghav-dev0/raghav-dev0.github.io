@@ -10,7 +10,7 @@ I obsess over reliability, cut through complexity, and leave systems simpler tha
 I treat AI as a first-class engineering tool: I've shipped GenAI products in production, piloted prompt-first workflows org-wide, and I'm continuously pushing the frontier on what AI-assisted engineering looks like in practice.`,
   contact: {
     email: 'raghavendrasai1742@gmail.com',
-    github: 'https://github.com/raghav',
+    github: 'https://github.com/raghav-dev0',
     linkedin: 'https://linkedin.com/in/raghavendrasai',
     phone: '+44-788-7033-124',
   },
