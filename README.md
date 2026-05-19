@@ -2,7 +2,7 @@
 
 Personal portfolio site for [Raghavendra Sai](https://github.com/scumpah) — terminal-themed, built with React + Vite + TypeScript.
 
-**Live:** https://scumpah.github.io/my-portfolio/
+**Live:** https://scumpah.github.io
 
 ## Stack
 

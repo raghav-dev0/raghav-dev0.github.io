@@ -49,7 +49,7 @@ export default function App() {
         </ul>
         <div className={styles.sideFooter}>
           <a
-            href="/my-portfolio/resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noreferrer"
             className={styles.resumeBtn}
