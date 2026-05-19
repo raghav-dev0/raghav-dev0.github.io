@@ -1,6 +1,6 @@
 export const resume = {
   name: 'Raghavendra Sai',
-  handle: 'scumpah',
+  handle: 'raghav',
   title: 'Lead Software Engineer',
   tagline: 'Systems thinker. Problem solver. AI-native builder. Impact at scale.',
   about: `10+ years architecting distributed systems that handle millions of users and move serious money — worldwide scale, with deep focus on EMEA and US markets over the past few years.
@@ -10,7 +10,7 @@ I obsess over reliability, cut through complexity, and leave systems simpler tha
 I treat AI as a first-class engineering tool: I've shipped GenAI products in production, piloted prompt-first workflows org-wide, and I'm continuously pushing the frontier on what AI-assisted engineering looks like in practice.`,
   contact: {
     email: 'raghavendrasai1742@gmail.com',
-    github: 'https://github.com/scumpah',
+    github: 'https://github.com/raghav',
     linkedin: 'https://linkedin.com/in/raghavendrasai',
     phone: '+44-788-7033-124',
   },

@@ -23,7 +23,7 @@ export default function Hero() {
   return (
     <div className={styles.hero}>
       <p className={styles.prompt}>
-        <span className={styles.user}>scumpah@github</span>
+        <span className={styles.user}>raghav@github</span>
         <span className={styles.sep}>:</span>
         <span className={styles.path}>~</span>
         <span className={styles.dollar}>$</span>
@@ -40,7 +40,7 @@ export default function Hero() {
       </div>
 
       <p className={styles.prompt} style={{ marginTop: 32 }}>
-        <span className={styles.user}>scumpah@github</span>
+        <span className={styles.user}>raghav@github</span>
         <span className={styles.sep}>:</span>
         <span className={styles.path}>~</span>
         <span className={styles.dollar}>$</span>

@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div>
       <p className={styles.prompt}>
-        <span className={styles.user}>scumpah@github</span>
+        <span className={styles.user}>raghav@github</span>
         <span className={styles.sep}>:</span>
         <span className={styles.path}>~</span>
         <span className={styles.dollar}>$</span>
@@ -16,7 +16,7 @@ export default function Contact() {
       <div className={styles.links}>
         <a href={contact.github} target="_blank" rel="noreferrer" className={styles.link}>
           <span className={styles.icon}>⬡</span>
-          <span>github.com/scumpah</span>
+          <span>github.com/raghav</span>
         </a>
         <a href={`mailto:${contact.email}`} className={styles.link}>
           <span className={styles.icon}>@</span>
@@ -29,7 +29,7 @@ export default function Contact() {
       </div>
 
       <p className={styles.footer}>
-        <span className={styles.user}>scumpah@github</span>
+        <span className={styles.user}>raghav@github</span>
         <span className={styles.sep}>:</span>
         <span className={styles.path}>~</span>
         <span className={styles.dollar}>$</span>

@@ -22,7 +22,7 @@ export default function Stats() {
   return (
     <div ref={ref}>
       <p className={styles.prompt}>
-        <span className={styles.user}>scumpah@github</span>
+        <span className={styles.user}>raghav@github</span>
         <span className={styles.sep}>:</span>
         <span className={styles.path}>~</span>
         <span className={styles.dollar}>$</span>
