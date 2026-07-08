@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import Education from './components/Education'
 import Contact from './components/Contact'
 import Research from './components/Research'
+import AvatarLightbox from './components/AvatarLightbox'
 import styles from './App.module.css'
 
 const NAV = ['whoami', 'stats', 'skills', 'experience', 'education', 'research', 'contact']
@@ -32,6 +33,14 @@ export default function App() {
     <div className={styles.layout}>
       <nav className={styles.sidebar}>
         <div className={styles.sideHandle}>
+          <AvatarLightbox
+            className={styles.sideAvatar}
+            src="/profile-image.jpeg"
+            fullSrc="/profile-image-full.jpeg"
+            alt={resume.name}
+            width={64}
+            height={64}
+          />
           <span className={styles.sideUser}>{resume.handle}</span>
           <span className={styles.sideSep}>@github</span>
         </div>

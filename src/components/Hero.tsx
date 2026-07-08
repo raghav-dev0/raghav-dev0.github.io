@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { resume } from '../data/resume'
+import AvatarLightbox from './AvatarLightbox'
 import styles from './Hero.module.css'
 
 export default function Hero() {
@@ -30,13 +31,23 @@ export default function Hero() {
         <span className={styles.cmd}>whoami</span>
       </p>
 
-      <div className={styles.output}>
-        <h1 className={styles.name}>
-          {displayed}
-          {!done && <span className={styles.caret}>|</span>}
-        </h1>
-        <p className={styles.title}>{resume.title}</p>
-        <p className={styles.tagline}># {resume.tagline}</p>
+      <div className={`${styles.output} ${styles.identity}`}>
+        <AvatarLightbox
+          className={styles.avatar}
+          src="/profile-image.jpeg"
+          fullSrc="/profile-image-full.jpeg"
+          alt={resume.name}
+          width={96}
+          height={96}
+        />
+        <div>
+          <h1 className={styles.name}>
+            {displayed}
+            {!done && <span className={styles.caret}>|</span>}
+          </h1>
+          <p className={styles.title}>{resume.title}</p>
+          <p className={styles.tagline}># {resume.tagline}</p>
+        </div>
       </div>
 
       <p className={styles.prompt} style={{ marginTop: 32 }}>

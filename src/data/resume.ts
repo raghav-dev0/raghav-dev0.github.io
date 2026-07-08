@@ -11,7 +11,7 @@ I treat AI as a first-class engineering tool: I've shipped GenAI products in pro
   contact: {
     email: 'raghavendrasai1742@gmail.com',
     github: 'https://github.com/raghav-dev0',
-    linkedin: 'https://linkedin.com/in/raghavendrasai',
+    linkedin: 'https://www.linkedin.com/in/raghavendra-sai-45554a93/',
     phone: '+44-788-7033-124',
   },
   stats: {
@@ -47,6 +47,7 @@ I treat AI as a first-class engineering tool: I've shipped GenAI products in pro
         'Part of the Foundations group: rearchitecting core platform decisions at scale, reducing complexity and enabling the system to grow with aggressive customer demand.',
         'Enabled 2X ARR growth in one year by shipping key customer features that unblocked mid-market deals, working closely with Product, Design, Sales, and Compliance.',
         'Led service consolidation (10% reduction), cutting infra costs and improving developer velocity across teams.',
+        'Spearheaded database consolidation from the ground up, partnering with Data Platform teams to migrate scattered databases and clusters onto a single-cluster, single-database, multi-schema model — cutting DB instance count by 10% and driving significant infra cost savings.',
         'Piloted AI-assisted engineering (prompt-first refactoring) at org level — now a standard practice.',
       ],
     },
@@ -142,6 +143,15 @@ I treat AI as a first-class engineering tool: I've shipped GenAI products in pro
         desc: 'The paper that shaped how the industry thinks about eventual consistency, vector clocks, and the CAP tradeoff at warehouse scale.',
         url: 'https://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf',
         tag: 'Distributed Systems · Storage',
+        status: 'reading',
+      },
+      {
+        title: 'Cassandra: A Decentralized Structured Storage System',
+        authors: 'Lakshman & Malik, Facebook (2009)',
+        desc: 'Combines Dynamo\'s fully distributed, leaderless architecture with Bigtable\'s column-family data model — the basis for Cassandra\'s tunable consistency and linear scalability.',
+        url: 'https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf',
+        tag: 'Distributed Systems · Storage',
+        status: 'finished',
       },
     ],
   },

@@ -19,6 +19,26 @@
   padding-left: 4px;
 }
 
+.identity {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+@media (min-width: 769px) {
+  .avatar { display: none; }
+}
+
 .name {
   font-size: clamp(28px, 5vw, 42px);
   font-weight: 700;

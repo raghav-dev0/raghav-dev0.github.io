@@ -21,6 +21,17 @@
 .sideHandle {
   padding: 0 20px 20px;
   border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+.sideAvatar {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  margin: 0 auto 12px;
+  display: block;
 }
 
 .sideUser {

@@ -33,11 +33,28 @@ export default function Research() {
       {/* Currently reading */}
       <div className={styles.block}>
         <span className={styles.blockLabel}>── currently reading ────────────────────</span>
-        {research.reading.map((r, i) => (
+        {research.reading.filter((r) => r.status === 'reading').map((r, i) => (
           <a key={i} href={r.url} target="_blank" rel="noreferrer" className={`${styles.card} ${styles.reading}`}>
             <div className={styles.cardTop}>
               <span className={`${styles.cardTag} ${styles.readingTag}`}>{r.tag}</span>
               <span className={styles.readingPulse}>● reading now</span>
+            </div>
+            <p className={styles.cardTitle}>{r.title}</p>
+            <p className={styles.cardCtx}>{r.authors}</p>
+            <p className={styles.cardDesc}>{r.desc}</p>
+            <span className={styles.cardLink}>↗ open pdf</span>
+          </a>
+        ))}
+      </div>
+
+      {/* Finished */}
+      <div className={styles.block}>
+        <span className={styles.blockLabel}>── finished reading ─────────────────────</span>
+        {research.reading.filter((r) => r.status === 'finished').map((r, i) => (
+          <a key={i} href={r.url} target="_blank" rel="noreferrer" className={styles.card}>
+            <div className={styles.cardTop}>
+              <span className={styles.cardTag}>{r.tag}</span>
+              <span className={styles.cardYear}>✓ finished</span>
             </div>
             <p className={styles.cardTitle}>{r.title}</p>
             <p className={styles.cardCtx}>{r.authors}</p>
