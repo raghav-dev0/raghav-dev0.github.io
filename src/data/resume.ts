@@ -153,6 +153,14 @@ I treat AI as a first-class engineering tool: I've shipped GenAI products in pro
         tag: 'Distributed Systems · Storage',
         status: 'finished',
       },
+      {
+        title: 'DuckDB: an Embeddable Analytical Database',
+        authors: 'Raasveldt & Mühleisen, CWI (SIGMOD 2019)',
+        desc: 'The demo paper introducing DuckDB — an embedded, columnar, vectorized-execution OLAP engine built for the same in-process niche SQLite fills for OLTP.',
+        url: 'https://mytherin.github.io/papers/2019-duckdbdemo.pdf',
+        tag: 'Databases · OLAP',
+        status: 'finished',
+      },
     ],
   },
 }
